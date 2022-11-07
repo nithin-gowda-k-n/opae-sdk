@@ -331,7 +331,8 @@ class openssl:
 
     def __init__(self, versions=[('libcrypto.so.1.1', '1.1.1'),
                                  ('libcrypto.so.1.1', 'OpenSSL 1.1.1k  FIPS 25 Mar 2021'),
-                                 ('libcrypto.so.3', 'OpenSSL 3.0.2 15 Mar 2022')]):
+                                 ('libcrypto.so.3', 'OpenSSL 3.0.2 15 Mar 2022'),
+                                 ('libcrypto.so.3', 'OpenSSL 3.0.5 5 Jul 2022')]):
         self.nanotime = None
 
         if _platform == "win32" or _platform == "win64":
